@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+header {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/theory/dd.jpg);
+    background-size: cover;
+    background-position: center top;
+    border-top: 6px solid #4e82be;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.banner p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: -15px;
+}
+
+
+/*second-part*/
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-part {
+    padding: 70px 0;
+}
+
+.second-part section {
+    width: 30%;
+}
+
+.second-part h3 {
+    color: #4e82be;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+.second-part p {
+    font-weight: 100;
+    line-height: 1.8rem;
+    color: gray;
+    margin-bottom: 1.2rem;
+}
+
+.second-part button {
+    color: #fff;
+    background-color: #4e82be;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+
+
+/*third-part*/
+
+.third-part {
+    width: 100%;
+    background-color: #4e82be;
+    text-align: center;
+    color: #fff;
+}
+
+.third-part h2 {
+    font-size: 2.3rem;
+    font-weight: 100;
+    margin-top: 3rem;
+}
+
+.third-part p {
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+}
+
+.box {
+    width: 22%;
+    border: 1px solid #fff;
+    margin-bottom: 3rem;
+}
+
+.box img {
+    width: 70%;
+    border-radius: 100%;
+    margin-top: 3rem;
+}
+
+.box h4 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.box p {
+    color: #dfdfdf;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+
+/*last-part*/
+
+.last-part h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.3rem;
+    color: #4e82be;
+}
+
+.last-part p {
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+.one,
+.two {
+    width: 48%;
+}
+
+.one img,
+.two img {
+    width: 100%;
+}
+
+.one h3,
+.two h3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #4e82be;
+}
+
+.one p,
+.two p {
+    text-align: left;
+    line-height: 1.6rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.one button,
+.two button {
+    color: #fff;
+    background-color: #4e82be;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer hr {
+    width: 100%;
+    height: 1px;
+}
+
+.copyright p {
+    color: gray;
+}
+
+.social {
+    color: #4e82be;
+    padding: 1rem 0;
+}
+
+.social span {
+    padding: 0 0.5rem;
+}
+
+
+/*media query*/
+
+@media (max-width:600px) {
+    .second-part section {
+        width: 100%;
+        padding: 0 25%;
+    }
+    .third-part .box {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .third-part img {
+        width: 60%;
+    }
+    .last-part .one,
+    .last-part .two {
+        width: 70%;
+        padding: 0 15%;
+        margin-bottom: 5%;
+    }
+    footer hr {
+        width: 70%;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+    .social {
+        width: 100%;
+        text-align: center;
+    }
+}
